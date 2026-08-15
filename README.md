@@ -127,9 +127,9 @@ git push
 | Platform | Link |
 |---|---|
 | Portfolio | https://akash-portfolio-xi-nine.vercel.app/ |
-| LinkedIn | https://www.linkedin.com/in/akashlogeshbabu7506/ |
+| LinkedIn | https://www.linkedin.com/in/akashlogeshbabu7/ |
 | GitHub | https://github.com/akash-07-git-io |
-| Email | akashlogeshbabu@gmail.com |
+| Email | akashlogeshbabu7@gmail.com |
 
 ---
 
