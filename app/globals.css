@@ -35,6 +35,37 @@
   --font-body: 'Inter', system-ui, sans-serif;
 }
 
+/* ── LIGHT THEME ── */
+[data-theme="light"] {
+  --bg-void:    #F0F4FA;
+  --bg-deep:    #E8EEF7;
+  --bg-surface: #DDE5F2;
+  --bg-card:    #FFFFFF;
+  --bg-raised:  #F5F8FF;
+
+  --border-0: #C8D8EE;
+  --border-1: #A8C0E0;
+  --border-2: #7AA0CC;
+
+  --blue:      #1355CC;
+  --blue-lite: #1A6FFF;
+  --blue-dim:  rgba(19,85,204,0.10);
+  --blue-glow: rgba(19,85,204,0.25);
+
+  --red:      #C0102E;
+  --red-lite: #E8173A;
+  --red-dim:  rgba(192,16,46,0.08);
+  --red-glow: rgba(192,16,46,0.20);
+
+  --cyan:  #0077BB;
+  --green: #00A854;
+
+  --t1: #0A1628;
+  --t2: #2A4A70;
+  --t3: #4A6A90;
+  --t4: #8AAAC8;
+}
+
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{
@@ -43,6 +74,7 @@ body{
   font-family:var(--font-body);
   overflow-x:hidden;
   -webkit-font-smoothing:antialiased;
+  transition:background 0.3s, color 0.3s;
 }
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:var(--bg-void)}
